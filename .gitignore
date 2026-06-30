@@ -1,0 +1,30 @@
+# Кэш Python (компилированные файлы)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Виртуальное окружение (Virtual Environment)
+# Исключает папки .venv, venv, env, которые создаются локально
+.venv/
+venv/
+env/
+ENV/
+
+# Настройки среды PyCharm / IntelliJ IDEA
+.idea/
+
+# Настройки VS Code (на случай, если кто-то будет открывать проект там)
+.vscode/
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
+
+# Файлы конфигурации и секреты (переменные окружения)
+.env
+*.bak
+*.log
